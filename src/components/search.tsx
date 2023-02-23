@@ -13,7 +13,7 @@ export default function Search() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <p className="text-black text-2xl md:text-6xl">
+            <p className="text-black text-lg md:text-6xl">
               Nutrivize Database
             </p>
             <p className="text-black md:text-2xl">

@@ -56,7 +56,7 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4 font-mono font-bold tracking-[1px]">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -66,7 +66,7 @@ export default function Navbar() {
                         aria-current={item.href === pathname ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -75,17 +75,16 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="flex items-center justify-center space-y-1 px-2 pt-2 pb-3">
+            <div className="flex items-center justify-between px-2 pt-2 pb-3">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
-                  as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'text-blue-600 font-bold' : 'text-gray nav',
+                    item.href === pathname ? 'text-blue-600 font-bold' : 'text-gray',
                     'px-3 py-2 rounded-md text-sm font-medium'
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.href === pathname ? 'page' : undefined}
                 >
                   {item.name}
                 </Link>
