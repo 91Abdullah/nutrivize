@@ -1,4 +1,5 @@
 import './globals.css'
+import Navbar from "@/components/navbar";
 
 export default function RootLayout({
   children,
@@ -11,8 +12,13 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
-      <body>{children}</body>
+      <head>
+        <title>Nutrivize - food and nutrition database</title>
+      </head>
+      <body className="font-mono">
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
