@@ -8,7 +8,7 @@ export default function Page() {
       <br />
       <br />
       <p>
-        At Nutrivize, our mission is to empower consumers and researchers with the most comprehensive and up-to-date nutritional information available. We are an integrated data system that provides expanded nutrient profile data and links to related agricultural and experimental research
+        At Nutrivize, our mission is to empower consumers and researchers with the most comprehensive and up-to-date nutritional information available. We are an integrated data system that provides expanded nutrient profile data and links to related agricultural and experimental research.
       </p>
       <br />
       <p>
