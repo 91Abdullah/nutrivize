@@ -12,7 +12,7 @@ export default function Page() {
       </p>
       <br />
       <p>
-        Our platform is designed to make it easy for users to access and understand complex nutritional information, so they can make informed decisions about their health and wellness. Whether you're a researcher, healthcare professional, or simply someone who wants to eat more nutritiously, Nutrivize has the tools and resources you need.
+        Our platform is designed to make it easy for users to access and understand complex nutritional information, so they can make informed decisions about their health and wellness. Whether you&apos;re a researcher, healthcare professional, or simply someone who wants to eat more nutritiously, Nutrivize has the tools and resources you need.
       </p>
       <br />
       <p>
